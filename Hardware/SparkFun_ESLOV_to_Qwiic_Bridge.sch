@@ -21980,7 +21980,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PN" value="SM05B-SRSS-TB"/>
+<attribute name="PROD_ID" value="CONN-20121"/>
+<attribute name="VALUE" value="ESLOV RA"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -23048,7 +23052,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DESIGNER" value="Alex Brudner"/>
 <attribute name="REV" value="v10"/>
 </part>
-<part name="J1" library="ESLOV" deviceset="ESLOV" device=""/>
+<part name="J1" library="ESLOV" deviceset="ESLOV" device="" value="ESLOV RA"/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="3.3V"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
@@ -23070,7 +23074,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="124.46" y="149.86" size="2.54" layer="94" font="vector" align="bottom-center">ESLOV to Qwiic Adapter</text>
+<text x="124.46" y="149.86" size="2.54" layer="94" font="vector" align="bottom-center">ESLOV to Qwiic Bridge</text>
 <text x="165.1" y="78.74" size="1.778" layer="97" font="vector" align="center-left">Interrupt Pin</text>
 <text x="124.46" y="132.08" size="1.778" layer="97" font="vector" align="bottom-center">Max VIN: 6V
 Current: 600mA</text>
@@ -23085,16 +23089,16 @@ Current: 600mA</text>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
 <instance part="J1" gate="G$1" x="76.2" y="99.06" smashed="yes">
-<attribute name="VALUE" x="71.12" y="91.186" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="71.12" y="106.934" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="71.12" y="90.678" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="71.12" y="107.696" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="U1" gate="G$1" x="124.46" y="116.84" smashed="yes">
-<attribute name="NAME" x="116.84" y="124.714" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="116.84" y="108.966" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="116.84" y="125.222" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="116.84" y="108.458" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="J2" gate="J1" x="160.02" y="93.98" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="165.1" y="88.646" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
-<attribute name="NAME" x="165.1" y="101.854" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="165.1" y="88.138" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
+<attribute name="NAME" x="165.1" y="102.362" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="J3" gate="J1" x="160.02" y="78.74" smashed="yes" rot="R180">
 <attribute name="VALUE" x="162.56" y="83.566" size="1.778" layer="96" font="vector" rot="R180"/>

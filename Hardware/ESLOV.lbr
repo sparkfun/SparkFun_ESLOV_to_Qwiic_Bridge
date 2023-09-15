@@ -251,7 +251,11 @@
 <connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PN" value="SM05B-SRSS-TB"/>
+<attribute name="PROD_ID" value="CONN-20121"/>
+<attribute name="VALUE" value="ESLOV RA"/>
+</technology>
 </technologies>
 </device>
 </devices>
