@@ -1,41 +1,25 @@
-SparkFun <PRODUCT NAME>
+SparkFun ESLOV to Qwiic Bridge
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![SparkFun ESLOV to Qwiic Bridge](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/8/8/4/23589_ESLOV_to_Qwiic_Bridge_Feature.jpg)](https://www.sparkfun.com/products/23589)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun ESLOV to Qwiic Bridge (BOB-23589)*](https://www.sparkfun.com/products/23589)
 
-<Basic description of the part.>
+The SparkFun ESLOV to Qwiic Bridge lets you quickly and easily connect Qwiic breakouts to Arduino boards with an ESLOV connector for I2C communication. ESLOV and Qwiic allow for simple assembly of I2C circuits without requiring soldering.
+
+The ESLOV to Qwiic Bridge includes one Qwiic connector and one ESLOV connector, along with a plated through hole for the interrupt pin on the ESLOV connection. Since the ESLOV connectors have 5V for power, this bridge board includes a voltage regulator to drop that 5V down to 3.3V, making it safe for any Qwiic device.
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
-Documentation
---------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
 
 Product Versions
 ----------------
-* [Part SKU](part URL) - Basic part and short description here
-* [Retail part SKU](retail URL) - Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [BOB-23589](https://www.sparkfun.com/products/23589) - Initial release of SparkFun ESLOV to Qwiic Bridge
 
 License Information
 -------------------
@@ -49,5 +33,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
